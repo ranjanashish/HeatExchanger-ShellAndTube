@@ -1,0 +1,371 @@
+Inside Shell Diameter                    : 1038.68 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 592 
+Shell-side Pressure Drop                 : 11.3886 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1033.75 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 586 
+Shell-side Pressure Drop                 : 11.4449 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1028.88 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 581 
+Shell-side Pressure Drop                 : 11.5741 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1024.09 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 575 
+Shell-side Pressure Drop                 : 11.6196 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1086.11 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 460 
+Shell-side Pressure Drop                 : 8.13814 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1019.37 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 569 
+Shell-side Pressure Drop                 : 11.6613 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1081.13 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 455 
+Shell-side Pressure Drop                 : 8.11012 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1014.71 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 564 
+Shell-side Pressure Drop                 : 11.7737 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1076.22 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 451 
+Shell-side Pressure Drop                 : 8.13951 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1010.12 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 559 
+Shell-side Pressure Drop                 : 11.8808 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1071.38 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 447 
+Shell-side Pressure Drop                 : 8.16883 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1005.6 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 553 
+Shell-side Pressure Drop                 : 11.9112 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1066.6 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 443 
+Shell-side Pressure Drop                 : 8.1983 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1001.14 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 548 
+Shell-side Pressure Drop                 : 12.0102 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1061.89 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 439 
+Shell-side Pressure Drop                 : 8.22808 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 996.737 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 543 
+Shell-side Pressure Drop                 : 12.1052 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1057.25 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 435 
+Shell-side Pressure Drop                 : 8.25836 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 992.397 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 538 
+Shell-side Pressure Drop                 : 12.1967 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1052.67 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 427 
+Shell-side Pressure Drop                 : 8.10329 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 988.116 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 534 
+Shell-side Pressure Drop                 : 12.3533 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1048.16 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 423 
+Shell-side Pressure Drop                 : 8.1396 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 983.892 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 529 
+Shell-side Pressure Drop                 : 12.4378 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1043.7 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 420 
+Shell-side Pressure Drop                 : 8.22007 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 979.724 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 524 
+Shell-side Pressure Drop                 : 12.5197 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1039.3 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 416 
+Shell-side Pressure Drop                 : 8.25698 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 975.612 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 519 
+Shell-side Pressure Drop                 : 12.5995 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1034.96 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 412 
+Shell-side Pressure Drop                 : 8.2949 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 971.553 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 515 
+Shell-side Pressure Drop                 : 12.7422 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1030.68 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 409 
+Shell-side Pressure Drop                 : 8.37479 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 967.546 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 510 
+Shell-side Pressure Drop                 : 12.8173 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1026.45 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 405 
+Shell-side Pressure Drop                 : 8.41404 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 963.592 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 506 
+Shell-side Pressure Drop                 : 12.9545 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1022.28 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 402 
+Shell-side Pressure Drop                 : 8.49398 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 959.687 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 502 
+Shell-side Pressure Drop                 : 13.089 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1018.16 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 398 
+Shell-side Pressure Drop                 : 8.53498 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 955.832 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 498 
+Shell-side Pressure Drop                 : 13.2212 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1014.09 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 395 
+Shell-side Pressure Drop                 : 8.61542 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 952.025 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 493 
+Shell-side Pressure Drop                 : 13.2891 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1010.08 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 392 
+Shell-side Pressure Drop                 : 8.69601 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 948.265 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 489 
+Shell-side Pressure Drop                 : 13.4176 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1006.11 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 388 
+Shell-side Pressure Drop                 : 8.73984 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 944.552 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 485 
+Shell-side Pressure Drop                 : 13.5442 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 1002.19 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 385 
+Shell-side Pressure Drop                 : 8.8215 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 940.884 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 481 
+Shell-side Pressure Drop                 : 13.6692 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 998.321 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 382 
+Shell-side Pressure Drop                 : 8.90358 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 937.261 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 478 
+Shell-side Pressure Drop                 : 13.8527 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 994.498 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 379 
+Shell-side Pressure Drop                 : 8.98617 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 933.681 mm
+Outside Tube Diameter                    : 30 mm
+Inside Tube Diameter                     : 25 mm
+Number of Tubes                          : 474 
+Shell-side Pressure Drop                 : 13.9744 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 990.721 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 376 
+Shell-side Pressure Drop                 : 9.06935 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 986.989 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 373 
+Shell-side Pressure Drop                 : 9.1532 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 983.301 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 370 
+Shell-side Pressure Drop                 : 9.23778 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 979.657 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 367 
+Shell-side Pressure Drop                 : 9.32317 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
+Inside Shell Diameter                    : 976.055 mm
+Outside Tube Diameter                    : 38 mm
+Inside Tube Diameter                     : 33 mm
+Number of Tubes                          : 364 
+Shell-side Pressure Drop                 : 9.40944 kPa
+Max Allowable Pressure Drop (shell-side) : 14 kPa
+ 
