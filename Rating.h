@@ -17,6 +17,8 @@ class Rating{
                 double h_s_ideal() const;
                 double shell_side_htc() const;
 		double shell_side_pd() const;
+                double tube_side_htc() const;
+                double tube_side_pd() const;
         private:
                 /************************************************** INPUT DATA **************************************************/
                 /********** TEMPERATURES **********/

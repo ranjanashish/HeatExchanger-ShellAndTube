@@ -76,18 +76,18 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-YSmD2Gisru,guid=145f3d8fa8d8be88216ce0970000002b</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-793FL5HP9r,guid=edb8953a65f123f8228ff4da000000f7</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
     <value type="QString">GDMSESSION=gnome</value>
     <value type="QString">GDM_LANG=en_IN</value>
     <value type="QString">GDM_XSERVER_LOCATION=local</value>
     <value type="QString">GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/qtcreator.desktop</value>
-    <value type="QString">GIO_LAUNCHED_DESKTOP_FILE_PID=3236</value>
+    <value type="QString">GIO_LAUNCHED_DESKTOP_FILE_PID=5599</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-tuLZXm</value>
-    <value type="QString">GNOME_KEYRING_PID=2096</value>
-    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-U1cq3g/S.gpg-agent:2409:1</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-X60LP0</value>
+    <value type="QString">GNOME_KEYRING_PID=2880</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-25oxXs/S.gpg-agent:3023:1</value>
     <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/ashish/.gtkrc-1.2-gnome2</value>
     <value type="QString">HOME=/home/ashish</value>
     <value type="QString">LANG=en_IN</value>
@@ -98,16 +98,16 @@
     <value type="QString">PATH=/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games</value>
     <value type="QString">PWD=/home/ashish</value>
     <value type="QString">QTDIR=/usr/share/qt4</value>
-    <value type="QString">SESSION_MANAGER=local/localhost:@/tmp/.ICE-unix/2195,unix/localhost:/tmp/.ICE-unix/2195</value>
+    <value type="QString">SESSION_MANAGER=local/localhost:@/tmp/.ICE-unix/2963,unix/localhost:/tmp/.ICE-unix/2963</value>
     <value type="QString">SHELL=/usr/bin/zsh</value>
-    <value type="QString">SSH_AGENT_PID=2395</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-tuLZXm/ssh</value>
+    <value type="QString">SSH_AGENT_PID=3009</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-X60LP0/ssh</value>
     <value type="QString">USER=ashish</value>
     <value type="QString">USERNAME=ashish</value>
     <value type="QString">WINDOWPATH=7</value>
     <value type="QString">XAUTHORITY=/home/ashish/.Xauthority</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
-    <value type="QString">XDG_SESSION_COOKIE=eac12ddaf3bdffd57b6bf88d0000000d-1303353689.438781-1258952362</value>
+    <value type="QString">XDG_SESSION_COOKIE=eac12ddaf3bdffd57b6bf88d0000000d-1303439308.25449-1431736248</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
     <value type="QString">/home/ashish/Dropbox/home/ashish/HeatExchanger/Project/HeatExchanger.pro</value>
@@ -126,18 +126,18 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-YSmD2Gisru,guid=145f3d8fa8d8be88216ce0970000002b</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-793FL5HP9r,guid=edb8953a65f123f8228ff4da000000f7</value>
     <value type="QString">DESKTOP_SESSION=gnome</value>
     <value type="QString">DISPLAY=:0.0</value>
     <value type="QString">GDMSESSION=gnome</value>
     <value type="QString">GDM_LANG=en_IN</value>
     <value type="QString">GDM_XSERVER_LOCATION=local</value>
     <value type="QString">GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/qtcreator.desktop</value>
-    <value type="QString">GIO_LAUNCHED_DESKTOP_FILE_PID=3236</value>
+    <value type="QString">GIO_LAUNCHED_DESKTOP_FILE_PID=5599</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-tuLZXm</value>
-    <value type="QString">GNOME_KEYRING_PID=2096</value>
-    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-U1cq3g/S.gpg-agent:2409:1</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-X60LP0</value>
+    <value type="QString">GNOME_KEYRING_PID=2880</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-25oxXs/S.gpg-agent:3023:1</value>
     <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/ashish/.gtkrc-1.2-gnome2</value>
     <value type="QString">HOME=/home/ashish</value>
     <value type="QString">LANG=en_IN</value>
@@ -148,16 +148,16 @@
     <value type="QString">PATH=/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games</value>
     <value type="QString">PWD=/home/ashish</value>
     <value type="QString">QTDIR=/usr/share/qt4</value>
-    <value type="QString">SESSION_MANAGER=local/localhost:@/tmp/.ICE-unix/2195,unix/localhost:/tmp/.ICE-unix/2195</value>
+    <value type="QString">SESSION_MANAGER=local/localhost:@/tmp/.ICE-unix/2963,unix/localhost:/tmp/.ICE-unix/2963</value>
     <value type="QString">SHELL=/usr/bin/zsh</value>
-    <value type="QString">SSH_AGENT_PID=2395</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-tuLZXm/ssh</value>
+    <value type="QString">SSH_AGENT_PID=3009</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-X60LP0/ssh</value>
     <value type="QString">USER=ashish</value>
     <value type="QString">USERNAME=ashish</value>
     <value type="QString">WINDOWPATH=7</value>
     <value type="QString">XAUTHORITY=/home/ashish/.Xauthority</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
-    <value type="QString">XDG_SESSION_COOKIE=eac12ddaf3bdffd57b6bf88d0000000d-1303353689.438781-1258952362</value>
+    <value type="QString">XDG_SESSION_COOKIE=eac12ddaf3bdffd57b6bf88d0000000d-1303439308.25449-1431736248</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
    <valuelist key="abstractProcess.arguments" type="QVariantList">

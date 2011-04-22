@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created: Thu Apr 21 09:45:55 2011
+** Created: Fri Apr 22 11:50:12 2011
 **      by: Qt User Interface Compiler version 4.7.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -39,6 +39,11 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
+    QAction *actionCredits;
+    QAction *actionAbout;
+    QAction *actionInstructions;
+    QAction *actionSave;
+    QAction *actionQuit;
     QWidget *centralWidget;
     QHBoxLayout *horizontalLayout;
     QScrollArea *scrollArea;
@@ -50,9 +55,8 @@ public:
     QGroupBox *groupBox_2;
     QWidget *layoutWidget1;
     QVBoxLayout *verticalLayout_18;
-    QRadioButton *radioButton_rating_program;
     QRadioButton *radioButton_sizing_program;
-    QPushButton *pushButton_6;
+    QRadioButton *radioButton_rating_program;
     QGroupBox *groupBox;
     QTextBrowser *results;
     QPushButton *pushButton_results;
@@ -271,6 +275,16 @@ public:
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(1280, 800);
         MainWindow->setMaximumSize(QSize(1280, 800));
+        actionCredits = new QAction(MainWindow);
+        actionCredits->setObjectName(QString::fromUtf8("actionCredits"));
+        actionAbout = new QAction(MainWindow);
+        actionAbout->setObjectName(QString::fromUtf8("actionAbout"));
+        actionInstructions = new QAction(MainWindow);
+        actionInstructions->setObjectName(QString::fromUtf8("actionInstructions"));
+        actionSave = new QAction(MainWindow);
+        actionSave->setObjectName(QString::fromUtf8("actionSave"));
+        actionQuit = new QAction(MainWindow);
+        actionQuit->setObjectName(QString::fromUtf8("actionQuit"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         horizontalLayout = new QHBoxLayout(centralWidget);
@@ -311,20 +325,18 @@ public:
         verticalLayout_18->setContentsMargins(11, 11, 11, 11);
         verticalLayout_18->setObjectName(QString::fromUtf8("verticalLayout_18"));
         verticalLayout_18->setContentsMargins(0, 0, 0, 0);
-        radioButton_rating_program = new QRadioButton(layoutWidget1);
-        radioButton_rating_program->setObjectName(QString::fromUtf8("radioButton_rating_program"));
-        radioButton_rating_program->setChecked(true);
-
-        verticalLayout_18->addWidget(radioButton_rating_program);
-
         radioButton_sizing_program = new QRadioButton(layoutWidget1);
         radioButton_sizing_program->setObjectName(QString::fromUtf8("radioButton_sizing_program"));
+        radioButton_sizing_program->setChecked(true);
 
         verticalLayout_18->addWidget(radioButton_sizing_program);
 
-        pushButton_6 = new QPushButton(groupBox_2);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setGeometry(QRect(190, 50, 96, 27));
+        radioButton_rating_program = new QRadioButton(layoutWidget1);
+        radioButton_rating_program->setObjectName(QString::fromUtf8("radioButton_rating_program"));
+        radioButton_rating_program->setChecked(false);
+
+        verticalLayout_18->addWidget(radioButton_rating_program);
+
 
         verticalLayout_19->addWidget(groupBox_2);
 
@@ -1399,6 +1411,11 @@ public:
         menuBar->addAction(menuTools->menuAction());
         menuBar->addAction(menuWindow->menuAction());
         menuBar->addAction(menuHelp->menuAction());
+        menuFile->addAction(actionSave);
+        menuFile->addAction(actionQuit);
+        menuView->addAction(actionInstructions);
+        menuHelp->addAction(actionCredits);
+        menuHelp->addAction(actionAbout);
 
         retranslateUi(MainWindow);
 
@@ -1411,10 +1428,14 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Shell and Tube Heat Exchanger Software", 0, QApplication::UnicodeUTF8));
+        actionCredits->setText(QApplication::translate("MainWindow", "Credits", 0, QApplication::UnicodeUTF8));
+        actionAbout->setText(QApplication::translate("MainWindow", "About", 0, QApplication::UnicodeUTF8));
+        actionInstructions->setText(QApplication::translate("MainWindow", "Instructions", 0, QApplication::UnicodeUTF8));
+        actionSave->setText(QApplication::translate("MainWindow", "Save", 0, QApplication::UnicodeUTF8));
+        actionQuit->setText(QApplication::translate("MainWindow", "Quit", 0, QApplication::UnicodeUTF8));
         groupBox_2->setTitle(QApplication::translate("MainWindow", "Programs", 0, QApplication::UnicodeUTF8));
-        radioButton_rating_program->setText(QApplication::translate("MainWindow", "Rating Program", 0, QApplication::UnicodeUTF8));
         radioButton_sizing_program->setText(QApplication::translate("MainWindow", "Sizing Program", 0, QApplication::UnicodeUTF8));
-        pushButton_6->setText(QApplication::translate("MainWindow", "Go", 0, QApplication::UnicodeUTF8));
+        radioButton_rating_program->setText(QApplication::translate("MainWindow", "Rating Program", 0, QApplication::UnicodeUTF8));
         groupBox->setTitle(QApplication::translate("MainWindow", "Results", 0, QApplication::UnicodeUTF8));
         pushButton_results->setText(QApplication::translate("MainWindow", "Results", 0, QApplication::UnicodeUTF8));
         label_33->setText(QApplication::translate("MainWindow", "Generate AutoCAD File", 0, QApplication::UnicodeUTF8));
@@ -1520,8 +1541,8 @@ public:
         label_32->setText(QApplication::translate("MainWindow", "Number of sealing strips (pairs)", 0, QApplication::UnicodeUTF8));
         num_of_tube_passes->clear();
         num_of_tube_passes->insertItems(0, QStringList()
-         << QApplication::translate("MainWindow", "1", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("MainWindow", "2", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("MainWindow", "1", 0, QApplication::UnicodeUTF8)
         );
         pushButton->setText(QApplication::translate("MainWindow", "Save", 0, QApplication::UnicodeUTF8));
         pushButton_2->setText(QApplication::translate("MainWindow", "Clear", 0, QApplication::UnicodeUTF8));

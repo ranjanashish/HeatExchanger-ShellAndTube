@@ -7,11 +7,8 @@ MainWindow::MainWindow(QWidget *parent) :
         sizing(new Sizing(rating))
 {
 	ui->setupUi(this);
-        connect(ui->pushButton, SIGNAL(clicked()), this, SLOT(on_pushButton_clicked()));
-	connect(ui->pushButton_3, SIGNAL(clicked()), this, SLOT(on_pushButton_3_clicked()));
-        connect(ui->pushButton_results, SIGNAL(clicked()), this, SLOT(on_pushButton_results_clicked()));
-        connect(ui->pushButton_6, SIGNAL(clicked()), this, SLOT(on_pushButton_6_clicked()));
-        connect(ui->pushButton_8, SIGNAL(clicked()), this, SLOT(on_pushButton_8_clicked()));
+        connect(ui->actionCredits, SIGNAL(triggered()), this, SLOT(on_actionCredits_clicked()));
+        connect(ui->actionAbout, SIGNAL(triggered()), this, SLOT(on_actionAbout_clicked()));
 }
 
 MainWindow::~MainWindow()
@@ -98,9 +95,13 @@ void MainWindow::on_pushButton_results_clicked()
             rating->initialize();
             double shell_side_htc = rating->shell_side_htc();
             double shell_side_pd  = rating->shell_side_pd();
+            double tube_side_htc = rating->tube_side_htc();
+            double tube_side_pd  = rating->tube_side_pd();
             QString res1 = "The shell side heat transfer coefficient is <b>" + QString::number(shell_side_htc) + " W/m<sup>2</sup>K</b> <br />";
-            QString res2 = "The shell side pressure drop is <b>" + QString::number(shell_side_pd) + " kPa</b> <br />";
-            QString res = res1 + res2;
+            QString res2 = "The shell side pressure drop is <b>" + QString::number(shell_side_pd) + " kPa</b> <br /><br />";
+            QString res3 = "The tube side heat transfer coefficient is <b>" + QString::number(tube_side_htc) + " W/m<sup>2</sup>K</b> <br />";
+            QString res4 = "The tube side pressure drop is <b>" + QString::number(tube_side_pd) + " kPa</b> <br /><br />";
+            QString res = res1 + res2 + res3 + res4;
             ui->results->setText(res);
         }
         else{
@@ -109,15 +110,6 @@ void MainWindow::on_pushButton_results_clicked()
             sizing->calculate(absolute_path_to_sizing_result_file);
             QString res = "The result has been written in the file <b>" + absolute_path_to_sizing_result_file + "</b>";
             ui->results->setText(res);
-        }
-}
-
-void MainWindow::on_pushButton_6_clicked()
-{
-        if(ui->radioButton_rating_program->isChecked()){
-
-        }
-        else{
         }
 }
 
@@ -135,4 +127,12 @@ void MainWindow::on_pushButton_8_clicked()
 
         sizing->input_customer_constraints(&customer_constraints[0]);
         QMessageBox::information(this, "Customer Constraints Data", "Customer Constraints Data SAVED!");
+}
+
+void MainWindow::on_actionCredits_clicked(){
+        QMessageBox::information(this, "Credits", "Ashish Ranjan ME08B093 <br /> <br /> Arza Vamsi Spandan ME08B060 <br /> <br /> Anurag T. Jagadeesh ME08B074 <br /> <br /> Nithya GM ME08B039");
+}
+
+void MainWindow::on_actionAbout_clicked(){
+        QMessageBox::information(this, "About", "This is a shell and tube heat exchanger software developed by four <b>Indian Institue of Technology, Madras </b> students under the guidance of <b> Prof. Sarit Kumar Das. </b> <br /><br />Ashish Ranjan<br /><br />Arza Vamsi Spandan<br /><br />Anurag T. Jagadeesh<br /><br />Nithya GM");
 }

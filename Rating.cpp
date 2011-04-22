@@ -128,13 +128,13 @@ void Rating::initialize(){
 	/*** (1)S_m : cross-flow area (in mm2) ***/
 	S_m = L_b * (L_bb + ((D_ctl * (L_tp - D_t)) / L_tp));
 
-	/*** (2)m_s : cross-flowo mass velocity (in kg/m2.s) ***/
+        /*** (2)m_s : cross-flow mass velocity (in kg/m2.s) ***/
 	m_s = (M_s / S_m) * pow(10, 6);
 
 	/*** (3)Re_s : shell-side reynolds number (dimensionless) ***/
 	Re_s = ((m_s * (D_t / 1000)) / mu_s);
 
-	/*** (4)Re_s : shell-side prandtl number (dimensionless) ***/
+        /*** (4)Pr_s : shell-side prandtl number (dimensionless) ***/
 	Pr_s = (c_p_s * mu_s / k_s);
 
 	/*** (5)delta_T_M : mean temperature difference (in degree celcius) ***/
@@ -318,4 +318,36 @@ double Rating::shell_side_pd() const{
 	/********** delta_pe **********/
 
 	return delta_pc + delta_pw + delta_pe;
+}
+
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  Rating
+ *      Method:  Rating :: tube_side_htc
+ * Description:  calculates tube side heat transfer coefficient
+ *--------------------------------------------------------------------------------------
+ */
+double Rating::tube_side_htc() const{
+        double tube_cs_area = 0.78539816 * D_ti * D_ti;                                    //in mm2: tube cross-sectional area
+        double total_tube_cs_area_per_pass = (N_tt / N_tp) * tube_cs_area;                 //in mm2: total tube cross-sectional area per pass
+        double u_t = (M_t * pow(10, 6) / (rho_t * total_tube_cs_area_per_pass));           //in m/s:
+        double Re_t = (rho_t * u_t * D_ti) / (mu_t * 1000);                                //dimensionless: tube-side reynolds number
+        double Pr_t = (mu_t * c_p_t) / k_t;                                                //dimensionless: tube-side prandtl number
+        return ((0.027 * pow(Re_t, 0.8) * pow(Pr_t, 0.33) * k_t * 1000) / D_ti);           //in W/m2.K: tube side heat transfer coefficient
+}
+
+/*
+ *--------------------------------------------------------------------------------------
+ *       Class:  Rating
+ *      Method:  Rating :: tube_side_pd
+ * Description:  calculates tube side pressure drop
+ *--------------------------------------------------------------------------------------
+ */
+double Rating::tube_side_pd() const{
+        double tube_cs_area = 0.78539816 * D_ti * D_ti;                                    //in mm2: tube cross-sectional area
+        double total_tube_cs_area_per_pass = (N_tt / N_tp) * tube_cs_area;                 //in mm2: total tube cross-sectional area per pass
+        double u_t = (M_t * pow(10, 6) / (rho_t * total_tube_cs_area_per_pass));           //in m/s:
+        double Re_t = (rho_t * u_t * D_ti) / (mu_t * 1000);                                //dimensionless: tube-side reynolds number
+        double f = pow((0.79 * log(Re_t) - 1.64), -2);                                     //dimensionless: darcy friction factor
+        return ((N_tp * ((f * (L_to / D_ti)) + 2.5) * rho_t * u_t * u_t) / (2 * 1000));    //in kPa: tube side pressure drop
 }

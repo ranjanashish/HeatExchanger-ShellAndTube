@@ -98,9 +98,9 @@
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_18">
                <item>
-                <widget class="QRadioButton" name="radioButton_rating_program">
+                <widget class="QRadioButton" name="radioButton_sizing_program">
                  <property name="text">
-                  <string>Rating Program</string>
+                  <string>Sizing Program</string>
                  </property>
                  <property name="checked">
                   <bool>true</bool>
@@ -108,26 +108,16 @@
                 </widget>
                </item>
                <item>
-                <widget class="QRadioButton" name="radioButton_sizing_program">
+                <widget class="QRadioButton" name="radioButton_rating_program">
                  <property name="text">
-                  <string>Sizing Program</string>
+                  <string>Rating Program</string>
+                 </property>
+                 <property name="checked">
+                  <bool>false</bool>
                  </property>
                 </widget>
                </item>
               </layout>
-             </widget>
-             <widget class="QPushButton" name="pushButton_6">
-              <property name="geometry">
-               <rect>
-                <x>190</x>
-                <y>50</y>
-                <width>96</width>
-                <height>27</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>Go</string>
-              </property>
              </widget>
             </widget>
            </item>
@@ -1481,12 +1471,12 @@ p, li { white-space: pre-wrap; }
               <widget class="QComboBox" name="num_of_tube_passes">
                <item>
                 <property name="text">
-                 <string>1</string>
+                 <string>2</string>
                 </property>
                </item>
                <item>
                 <property name="text">
-                 <string>2</string>
+                 <string>1</string>
                 </property>
                </item>
               </widget>
@@ -1548,6 +1538,8 @@ p, li { white-space: pre-wrap; }
     <property name="title">
      <string>File</string>
     </property>
+    <addaction name="actionSave"/>
+    <addaction name="actionQuit"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">
@@ -1558,6 +1550,7 @@ p, li { white-space: pre-wrap; }
     <property name="title">
      <string>View</string>
     </property>
+    <addaction name="actionInstructions"/>
    </widget>
    <widget class="QMenu" name="menuTools">
     <property name="title">
@@ -1573,6 +1566,8 @@ p, li { white-space: pre-wrap; }
     <property name="title">
      <string>Help</string>
     </property>
+    <addaction name="actionCredits"/>
+    <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -1582,6 +1577,31 @@ p, li { white-space: pre-wrap; }
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCredits">
+   <property name="text">
+    <string>Credits</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionInstructions">
+   <property name="text">
+    <string>Instructions</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

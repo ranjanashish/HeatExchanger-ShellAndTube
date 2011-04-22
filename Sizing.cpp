@@ -190,20 +190,19 @@ void Sizing::calculate(QString absolute_path_to_sizing_result_file){
                         r->initialize();
 
                         double pd_shell = r->shell_side_pd();
+                        double pd_tube = r->tube_side_pd();
 
-                        if(pd_shell < max_pd_s){
-                            QString res1 = "Inside Shell Diameter                    : " + QString::number(D_s) + " mm";
-                            out << res1 << "\n";
-                            QString res2 = "Outside Tube Diameter                    : " + QString::number(D_t) + " mm";
-                            out << res2 << "\n";
-                            QString res3 = "Inside Tube Diameter                     : " + QString::number(D_ti) + " mm";
-                            out << res3 << "\n";
-                            QString res4 = "Number of Tubes                          : " + QString::number(N_tt) + " ";
-                            out << res4 << "\n";
-                            QString res5 = "Shell-side Pressure Drop                 : " + QString::number(pd_shell) + " kPa";
-                            out << res5 << "\n";
-                            QString res6 = "Max Allowable Pressure Drop (shell-side) : " + QString::number(max_pd_s) + " kPa";
-                            out << res6 << "\n \n";
+                        if(pd_shell < max_pd_s && pd_tube < max_pd_t){
+                            QString res1 = "Inside Shell Diameter                    : " + QString::number(D_s)  + " mm \n";
+                            QString res2 = "Outside Tube Diameter                    : " + QString::number(D_t)  + " mm \n";
+                            QString res3 = "Inside Tube Diameter                     : " + QString::number(D_ti) + " mm \n";
+                            QString res4 = "Number of Tubes                          : " + QString::number(N_tt) + "    \n";
+                            QString res5 = "Shell-side Pressure Drop                 : " + QString::number(pd_shell) + " kPa \n";
+                            QString res6 = "Max Allowable Pressure Drop (shell-side) : " + QString::number(max_pd_s) + " kPa \n";
+                            QString res7 = "Tube-side Pressure Drop                  : " + QString::number(pd_tube) + " kPa \n";
+                            QString res8 = "Max Allowable Pressure Drop (tube-side)  : " + QString::number(max_pd_t) + " kPa \n \n";
+                            QString res = res1 + res2 + res3 + res4 + res5 + res6 + res7 + res8;
+                            out<< res;
                         }
 		}
 	} 

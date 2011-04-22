@@ -20,10 +20,11 @@ class MainWindow : public QMainWindow {
 
         private slots:
                 void on_pushButton_8_clicked();
-                void on_pushButton_6_clicked();
                 void on_pushButton_results_clicked();
                 void on_pushButton_clicked();
                 void on_pushButton_3_clicked();
+                void on_actionCredits_clicked();
+                void on_actionAbout_clicked();
 
 	protected:
 		void changeEvent(QEvent *e);
